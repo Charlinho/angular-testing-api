@@ -1,0 +1,25 @@
+{
+  "name": "angular-testing-api",
+  "version": "1.0.0",
+  "description": "App to test API with Angular 5^",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js --exec",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Charlinho/angular-testing-api.git"
+  },
+  "author": "Charleston Campos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Charlinho/angular-testing-api/issues"
+  },
+  "homepage": "https://github.com/Charlinho/angular-testing-api#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "nodemon": "^1.14.11"
+  }
+}
